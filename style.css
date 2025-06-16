@@ -353,25 +353,130 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 900px) {
-    .categories {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .category-card {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-
-    .header-container,
-    .main-nav {
+    .header-container, .main-nav {
         flex-direction: column;
         align-items: flex-start;
+        padding: 8px 10px;
     }
-
     .search-bar {
         width: 100%;
         margin: 10px 0;
+        max-width: 100%;
+    }
+    .main-nav {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .main-nav-left {
+        flex-wrap: wrap;
+        gap: 8px;
+        font-size: 15px;
+    }
+    .main-nav-left a {
+        font-size: 13px;
+        padding: 0 4px;
+        line-height: 32px;
+    }
+    .hero-carousel {
+        height: 180px;
+    }
+    .hero-img {
+        height: 180px;
+        min-width: 100vw;
+    }
+    .categories {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin: 0 0 20px 0;
+    }
+    .category-card {
+        width: 90%;
+        height: auto;
+        min-height: 220px;
+        padding: 12px;
+    }
+    .category-card img {
+        height: 100px;
+    }
+    .promo-banner {
+        margin: 10px 0;
+        padding: 12px 8px 16px 8px;
+    }
+    .promo-banner .slider-header h3 {
+        font-size: 1.1rem;
+    }
+    .promo-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .footer-columns {
+        flex-direction: column;
+        gap: 24px;
+        padding: 20px 0;
+        align-items: flex-start;
+    }
+    .footer-col {
+        min-width: 0;
+        width: 100%;
+        padding-left: 16px;
+    }
+    .footer-bottom-content, .footer-bottom-links {
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .footer-bottom-logo-lang {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-container, .main-nav {
+        padding: 4px 2px;
+    }
+    .amazon-logo {
+        height: 32px;
+    }
+    .search-bar input, .search-bar select {
+        font-size: 12px;
+    }
+    .hero-carousel {
+        height: 120px;
+    }
+    .hero-img {
+        height: 120px;
+        min-width: 100vw;
+    }
+    .category-card {
+        padding: 8px;
+        min-height: 120px;
+    }
+    .category-card img {
+        height: 60px;
+    }
+    .promo-banner {
+        padding: 8px 2px 10px 2px;
+    }
+    .promo-banner .slider-header h3 {
+        font-size: 0.95rem;
+    }
+    .footer-col h4 {
+        font-size: 14px;
+    }
+    .footer-col a, .footer-bottom-links a {
+        font-size: 12px;
+    }
+    .footer-bottom-logo-lang {
+        gap: 6px;
+    }
+    .footer-logo {
+        height: 22px;
     }
 }
 
