@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+          <div class="header-left">
+            <img src="assets/amazon.png" alt="Amazon Logo" class="amazon-logo">
+            <div class="location">
+              <img class="location-icon" src="assets/location.png" alt="location"></img>
+              <div>
+                <span class="small-text">Delivering to Delhi 110001</span>
+                <span class="location-link">Update location</span>
+              </div>
+            </div>
+          </div>
+          <form class="search-bar">
+            <select>
+              <option>All <span class="small-arrow">▼</span></option>
+              <option>Electronics</option>
+              <option>Fashion</option>
+              <option>Home & Kitchen</option>
+              <option>Books</option>
+              <option>Toys & Games</option>
+              <option>Sports & Outdoors</option>
+              <option>Automotive</option>
+              <option>Baby</option>
+              <option>Health & Household</option>
+              <option>Pet Supplies</option>
+              <option>Tools & Home Improvement</option>
+              <option>Beauty</option>
+              <option>Jewelry</option>
+              <option>Watches</option>
+              <option>Shoes</option>
+              <option>Handbags & Accessories</option>
+              <option>Luggage</option>
+              <option>Other</option>
+            </select>
+            <input type="text" placeholder="Search Amazon.in">
+            <button type="submit"><img src="assets/search.png" alt="search" class="search-icon"></button>
+          </form>
+          <div class="header-right">
+            <div class="lang-select">
+              <img src="https://flagcdn.com/in.svg" alt="IN" class="flag">
+              <span>EN <span class="small-arrow">▼</span></span>
+            </div>
+            <a href="#" class="account">
+              <span class="small-text">Hello, sign in</span>
+              <span class="bold-text">Account & Lists <span class="small-arrow">▼</span></span>
+            </a>
+            <a href="#" class="orders">
+              <span class="small-text">Returns</span>
+              <span class="bold-text">& Orders</span>
+            </a>
+            <a href="#" class="cart">
+              <span class="cart-count">0</span>
+              <img src="assets/cart.png" alt="cart" class="cart-icon">
+              <span>Cart</span>
+            </a>
+          </div>
+        </div>
+      </header>
+      <nav class="main-nav">
+        <div class="main-nav-left">
+          <a href="#">All</a>
+          <a href="#">Fresh ▼</a>
+          <a href="#">MX Player</a>
+          <a href="#">Sell</a>
+          <a href="#">Bestsellers</a>
+          <a href="#">Mobiles</a>
+          <a href="#">Prime ▼</a>
+          <a href="#">Today's Deals</a>
+          <a href="#">Customer Service</a>
+          <a href="#">Fashion</a>
+          <a href="#">New Releases</a>
+          <a href="#">Amazon Pay</a>
+          <a href="#">Electronics</a>
+          <a href="#">Home & Kitchen</a>
+        </div>
+
+      </nav>
+      <main>
+        <section class="hero-carousel">
+          <button class="hero-btn hero-btn-left">&#60;</button>
+          <div class="hero-track">
+            <img src="assets/hero1.png" alt="Hero 1" class="hero-img" />
+            <img src="assets/hero2.png" alt="Hero 2" class="hero-img" />
+            <img src="assets/hero3.png" alt="Hero 3" class="hero-img" />
+            <img src="assets/hero4.png" alt="Hero 4" class="hero-img" />
+            <img src="assets/hero5.png" alt="Hero 5" class="hero-img" />
+            <img src="assets/hero6.png" alt="Hero 6" class="hero-img" />
+          </div>
+          <button class="hero-btn hero-btn-right">&#62;</button>
+        </section>
+        
+        <section class="categories">
+          <div class="category-card">
+            <h3>Appliances for your home | Up to 55% off</h3>
+            <img src="assets/appliances.png" alt="Appliances">
+          </div>
+          <div class="category-card">
+            <h3>Revamp your home in style</h3>
+            <img src="assets/home.png" alt="Home Style">
+          </div>
+          <div class="category-card">
+            <h3>PlayStation 5 Slim & Accessories | No Cost EMI*</h3>
+            <img src="assets/ps5.png" alt="PS5">
+          </div>
+          <div class="category-card">
+            <h3>Under ₹499 | Deals on home improvement essentials</h3>
+            <img src="assets/home1.png" alt="Deals">
+          </div>
+        </section>
+        <section class="categories">
+            <div class="category-card">
+              <h3>Starting ₹149 | Headphones</h3>
+              <img src="assets/headphone.png" alt="Headphones">
+            </div>
+            <div class="category-card">
+              <h3>Automotive essentials | Up to 60% off</h3>
+              <img src="assets/automotive.png" alt="Automotive Essentials">
+            </div>
+            <div class="category-card">
+              <h3>Starting ₹199 | Amazon Brands & more</h3>
+              <img src="assets/amazon1.png" alt="Amazon Brands">
+            </div>
+            <div class="category-card">
+              <h3>Get your desired TV screen size | Starting ₹6,999</h3>
+              <img src="assets/tv.png" alt="TV">
+            </div>
+          </section>
+          <section class="promo-banner">
+            <div class="slider-header">
+              <h3>Up to 60% off | Curated kitchen products | Amazon Launchpad <a href="#">See all</a></h3>
+            </div>
+            <div class="promo-image">
+              <img src="assets/kitchen1.png" alt="Curated kitchen products" class="promo-img" />
+            </div>
+          </section>
+          <section class="promo-banner">
+            <div class="slider-header">
+              <h3>Up to 75% off | Get casual ready from Small Businesses <a href="#">See all</a></h3>
+            </div>
+            <div class="promo-image">
+              <img src="assets/clothes.png" alt="Curated kitchen products" class="promo-img" />
+            </div>
+          </section>
+          <section class="categories">
+            <div class="category-card">
+              <h3>Customers’ Most-Loved Fashion for you</h3>
+              <img src="assets/1.png" alt="Fashion">
+            </div>
+            <div class="category-card">
+              <h3>Up to 60% off | Trending products from Emerging Brands</h3>
+              <img src="assets/2.png" alt="Automotive Essentials">
+            </div>
+            <div class="category-card">
+              <h3>Best Sellers in Clothing & Accessories</h3>
+              <img src="assets/3.png" alt="Amazon Brands">
+            </div>
+            <div class="category-card">
+              <h3>Best Sellers in Sports, Fitness & Outdoors</h3>
+              <img src="assets/4.png" alt="TV">
+            </div>
+          </section>
+
+
+
+          
+      </main>
+      <div class="personal-recommend">
+        <h3>See personalized recommendations</h3>
+        <button class="sign-in-btn">Sign in</button>
+        <div class="new-customer">New customer? <a href="#">Start here.</a></div>
+      </div>
+      <footer class="footer-top">
+        <div class="footer-backtotop">
+          Back to top
+        </div>
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h4>Get to Know Us</h4>
+            <a href="#">About Amazon</a>
+            <a href="#">Careers</a>
+            <a href="#">Press Releases</a>
+            <a href="#">Amazon Science</a>
+          </div>
+          <div class="footer-col">
+            <h4>Connect with Us</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+          <div class="footer-col">
+            <h4>Make Money with Us</h4>
+            <a href="#">Sell on Amazon</a>
+            <a href="#">Sell under Amazon Accelerator</a>
+            <a href="#">Protect and Build Your Brand</a>
+            <a href="#">Amazon Global Selling</a>
+            <a href="#">Supply to Amazon</a>
+            <a href="#">Become an Affiliate</a>
+            <a href="#">Fulfilment by Amazon</a>
+            <a href="#">Advertise Your Products</a>
+            <a href="#">Amazon Pay on Merchants</a>
+          </div>
+          <div class="footer-col">
+            <h4>Let Us Help You</h4>
+            <a href="#">Your Account</a>
+            <a href="#">Returns Centre</a>
+            <a href="#">Recalls and Product Safety Alerts</a>
+            <a href="#">100% Purchase Protection</a>
+            <a href="#">Amazon App Download</a>
+            <a href="#">Help</a>
+          </div>
+        </div>
+      </footer>
+      <footer class="footer-bottom">
+        <div class="footer-bottom-content">
+          <div class="footer-bottom-logo-lang">
+            <img src="assets/amazon.png" alt="Amazon Logo" class="footer-logo">
+            <div class="footer-lang-country">
+              <button class="footer-lang-btn"><span>🌐</span> English ▼</button>
+              <button class="footer-country-btn"><img src="https://flagcdn.com/in.svg" alt="IN" class="footer-flag"> India</button>
+            </div>
+
+          </div>
+          <div class="footer-bottom-links">
+            <div>
+              <a href="#"><strong>AbeBooks</strong><br>Books, art<br>& collectibles</a>
+              <a href="#"><strong>Shopbop</strong><br>Designer<br>Fashion Brands</a>
+            </div>
+            <div>
+              <a href="#"><strong>Amazon Web Services</strong><br>Scalable Cloud<br>Computing Services</a>
+              <a href="#"><strong>Amazon Business</strong><br>Everything For<br>Your Business</a>
+            </div>
+            <div>
+              <a href="#"><strong>Audible</strong><br>Download<br>Audio Books</a>
+              <a href="#"><strong>Prime Now</strong><br>2-Hour Delivery<br>on Everyday Items</a>
+            </div>
+            <div>
+              <a href="#"><strong>IMDb</strong><br>Movies, TV<br>& Celebrities</a>
+              <a href="#"><strong>Amazon Prime Music</strong><br>100 million songs, ad-free<br>Over 15 million podcast episodes</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-copyright">
+          <a href="#">Conditions of Use & Sale</a>
+          <a href="#">Privacy Notice</a>
+          <a href="#">Interest-Based Ads</a>
+          <span>© 1996-2025, Amazon.com, Inc. or its affiliates</span>
+        </div>
+      </footer>
+      <script>
+        const track = document.querySelector('.hero-track');
+        const images = document.querySelectorAll('.hero-img');
+        const btnLeft = document.querySelector('.hero-btn-left');
+        const btnRight = document.querySelector('.hero-btn-right');
+        let currentIndex = 0;
+
+        function updateCarousel() {
+          track.style.transform = `translateX(-${currentIndex * 100}vw)`;
+        }
+
+        btnLeft.addEventListener('click', () => {
+          currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+          updateCarousel();
+        });
+
+        btnRight.addEventListener('click', () => {
+          currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+          updateCarousel();
+        });
+      </script>
+</body>
+</html>
