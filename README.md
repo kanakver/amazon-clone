@@ -1,5 +1,7 @@
 # Amazon Clone
 
+[Live Demo](https://amazon-clone-xi-lovat.vercel.app)
+
 A pixel-perfect, responsive Amazon homepage clone built with only HTML and CSS (and a touch of JavaScript for the hero carousel). This project is for educational purposes and demonstrates modern layout, responsive design, and clean code structure.
 
 ## Features
@@ -12,7 +14,10 @@ A pixel-perfect, responsive Amazon homepage clone built with only HTML and CSS (
 - No frameworks, only HTML, CSS, and minimal JS
 
 ## Screenshots
-<!-- Add screenshots here after pushing to GitHub -->
+
+![Amazon Clone Screenshot](/screenshot.png)
+
+[Live Site: amazon-clone-xi-lovat.vercel.app](https://amazon-clone-xi-lovat.vercel.app)
 
 ## Getting Started
 
