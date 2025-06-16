@@ -15,7 +15,7 @@ A pixel-perfect, responsive Amazon homepage clone built with only HTML and CSS (
 
 ## Screenshots
 
-![Amazon Clone Screenshot](/screenshot.png)
+![Amazon Clone Screenshot](/assets/screenshot.png)
 
 [Live Site: amazon-clone-xi-lovat.vercel.app](https://amazon-clone-xi-lovat.vercel.app)
 
